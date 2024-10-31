@@ -1,0 +1,398 @@
+{
+    "intents": [
+        {
+            "tag": "hi",
+            "patterns": [
+                "hello",
+                "hey",
+                "hi!",
+                "hi"
+            ],
+            "responses": [
+                "Hello, I'm here to assist you with your mental health.",
+                "Hi there, how can I help you today?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "bye",
+            "patterns": [
+                "goodbye",
+                "buhbye",
+                "bye"
+            ],
+            "responses": [
+                "Thank you for your time!",
+                "Goodbye! Take care."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "depression",
+            "patterns": [
+                "depressed",
+                "sad",
+                "worried",
+                "despair",
+                "misery",
+                "bad"
+            ],
+            "responses": [
+                "It sounds like you're feeling down. Remember, you're not alone. I'm here to support you.",
+                "Feeling down is tough, but there are ways to cope. Let's talk about it."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "anxiety",
+            "patterns": [
+                "anxiety",
+                "anxious",
+                "nervous",
+                "stress",
+                "strain",
+                "tension",
+                "discomfort",
+                "tensed"
+            ],
+            "responses": [
+                "It seems like you're experiencing anxiety. Let's explore some relaxation techniques together.",
+                "Feeling anxious is challenging, but we can work through it together."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "paranoia",
+            "patterns": [
+                "disbelieve",
+                "distrustful",
+                "doubting",
+                "incredulous",
+                "mistrustful",
+                "negativistic",
+                "questioning",
+                "show-me",
+                "skeptical",
+                "suspecting",
+                "suspicious",
+                "unbelieving"
+            ],
+            "responses": [
+                "It sounds like you're feeling paranoid. It's important to address these feelings. Let's talk about it.",
+                "Paranoia can be distressing, but there are ways to manage it. I'm here to help."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sleeping_disorder",
+            "patterns": [
+                "restlessness",
+                "indisposition",
+                "sleeplessness",
+                "stress",
+                "tension",
+                "vigil",
+                "vigilance",
+                "wakefulness"
+            ],
+            "responses": [
+                "Having trouble sleeping can impact your overall well-being. Let's discuss some strategies to improve your sleep.",
+                "Sleep disturbances can be challenging, but there are techniques to promote better sleep hygiene. Let's explore them together."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "substance_abuse",
+            "patterns": [
+                "alcohol abuse",
+                "drug abuse",
+                "drug use",
+                "addiction",
+                "alcoholic addiction",
+                "alcoholism",
+                "chemical abuse",
+                "dipsomania",
+                "drug dependence",
+                "drug habit",
+                "narcotics abuse",
+                "solvent abuse"
+            ],
+            "responses": [
+                "Struggling with substance abuse is difficult, but recovery is possible. Let's talk about getting support.",
+                "Substance abuse can have serious consequences, but there are resources available to help you overcome it."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "personality_disorder",
+            "patterns": [
+                "insanity",
+                "mental disorder",
+                "schizophrenia",
+                "craziness",
+                "delusions",
+                "derangement",
+                "disturbed mind",
+                "emotional disorder",
+                "emotional instability",
+                "loss of mind",
+                "lunacy",
+                "madness",
+                "maladjustment",
+                "mania",
+                "mental disease",
+                "mental sickness",
+                "nervous breakdown",
+                "nervous disorder",
+                "neurosis",
+                "neurotic disorder",
+                "paranoia",
+                "phobia",
+                "psychopathy",
+                "psychosis",
+                "sick mind",
+                "troubled mind",
+                "unbalanced mind",
+                "unsoundness of mind"
+            ],
+            "responses": [
+                "It sounds like you're struggling with a personality disorder. It's important to seek professional help for support.",
+                "Living with a personality disorder can be challenging, but with the right treatment, you can improve your quality of life."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "happy",
+            "patterns": [
+                "good",
+                "great",
+                "relieved",
+                "happy",
+                "okay"
+            ],
+            "responses": [
+                "It's great to hear that you're feeling happy! If you ever need support, I'm here for you.",
+                "Feeling happy is wonderful. Remember to savor these moments."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "struggle",
+            "patterns": [
+                "What challenges are you facing right now?",
+                "Tell me about your current struggles."
+            ],
+            "responses": [
+                "It's important to address the challenges you're facing. Let's work through them together."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "support",
+            "patterns": [
+                "I need someone to talk to.",
+                "I'm feeling overwhelmed."
+            ],
+            "responses": [
+                "I'm here to listen and support you. You're not alone in this.",
+                "It's okay to feel overwhelmed. Let's talk about what's on your mind."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "definition",
+            "patterns": [
+                "What does it mean to have a mental illness?",
+                "What is mental health illness",
+                "Describe mental health illness"
+            ],
+            "responses": [
+                "Mental illnesses are health conditions that disrupt a person's thoughts, emotions, relationships, and daily functioning."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "affects_whom",
+            "patterns": [
+                "Who does mental illness affect?",
+                "Who is affected by mentall illness"
+            ],
+            "responses": [
+                "It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "what_causes",
+            "patterns": [
+                "What causes mental illness?",
+                "What leads to mental illness?",
+                "how does one get mentally ill?"
+            ],
+            "responses": [
+                "Symptoms of mental health disorders vary depending on the type and severity of the condition."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "recover",
+            "patterns": [
+                "Can people with mental illness recover?",
+                "Is it possible to recover from mental illness"
+            ],
+            "responses": [
+                "When healing from mental illness, early identification and treatment are of vital importance. Based on the nature of the illness, there are a range of effective treatments available. For any type of treatment, it is essential that the person affected is proactive and fully engaged in their own recovery process. Many people with mental illnesses who are diagnosed and treated respond well, although some might experience a return of symptoms. Even in such cases, with careful monitoring and management of the disorder, it is still quite possible to live a fulfilled and productive life."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "steps",
+            "patterns": [
+                "I know someone who appears to have such symptoms?",
+                "What are the steps to be followed incase of symptoms"
+            ],
+            "responses": [
+                "Although this website cannot substitute for professional advice, we encourage those with symptoms to talk to their friends and family members and seek the counsel of a mental health professional. The sooner the mental health condition is identified and treated, the sooner they can get on the path to recovery.If you know someone who is having problems, don't assume that the issue will resolve itself. Let them know that you care about them, and that there are treatment options available that will help them heal. Speak with a mental health professional or counselor if you think your friend or family member is experiencing the symptoms of a mental health condition. If the affected loved one knows that you support them, they will be more likely to seek out help."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "find_help",
+            "patterns": [
+                "How to find mental health professional for myself",
+                "How to find mental health professional?"
+            ],
+            "responses": [
+                "Feeling comfortable with the professional you or your child is working with is critical to the success of the treatment. Finding the professional who best fits your needs may require research. Start by searching for providers in your area."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "treatement_options",
+            "patterns": [
+                "What treatment options are available?",
+                "How can one recover?"
+            ],
+            "responses": [
+                "Just as there are different types of medications for physical illness, different treatment options are available for individuals with mental illness. Treatment works differently for different people. It is important to find what works best for you or your child."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "treatment_tips",
+            "patterns": [
+                "How to become involved in treatment?",
+                "What should I keep in mind if I begin treatment?"
+            ],
+            "responses": [
+                "Since beginning treatment is a big step for individuals and families, it can be very overwhelming."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "professional_types",
+            "patterns": [
+                "What is the difference between mental health professionals?",
+                "What are the different types of mental health professionals present?"
+            ],
+            "responses": [
+                "There are many types of mental health professionals. The variety of providers and their services may be confusing. Each have various levels of education, training, and may have different areas of expertise. Finding the professional who best fits your needs may require some research."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "right_professional",
+            "patterns": [
+                "How can I find a mental health professional right myself?",
+                "How to find the right mental health professional?"
+            ],
+            "responses": [
+                "Feeling comfortable with the professional you or your child is working with is critical to the success of your treatment. Finding the professional who best fits your needs may require some research."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "coping",
+            "patterns": [
+                "How can I manage stress?",
+                "What can I do to feel better?"
+            ],
+            "responses": [
+                "There are many coping strategies we can explore, such as deep breathing exercises, mindfulness, and journaling. Let's find what works best for you."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "education",
+            "patterns": [
+                "Can you tell me more about depression?",
+                "What is anxiety?"
+            ],
+            "responses": [
+                "Depression is a common mental health disorder characterized by persistent feelings of sadness and loss of interest or pleasure in activities. It's important to seek help from a healthcare professional for support and treatment."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "resources",
+            "patterns": [
+                "Where can I find help?",
+                "Are there any support groups available?"
+            ],
+            "responses": [
+                "There are many resources available, including hotlines, support groups, and therapy services. I can provide you with information on how to access them."
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
+
+
